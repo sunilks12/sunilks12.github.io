@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="icon" type="image/png" href="/logo.png"/>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <style>
+    /* body {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   background: #0d0c2d;
+ } */
+ 
+ .skills-container {
+   display: grid;
+   grid-template-columns: repeat(1, 160px);
+   grid-gap: 90px;
+   background: #0d0c2d;
+   box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
+               4px 4px 6px rgba(94, 104, 121, 0.288);
+   padding: 60px;
+   margin: auto 0;
+ }
+ 
+ @media (min-width: 420px) and (max-width: 659px) {
+   .skills-container {
+     grid-template-columns: repeat(2, 160px);
+   }
+ }
+ 
+ @media (min-width: 660px) and (max-width: 899px) {
+   .skills-container {
+     grid-template-columns: repeat(4, 160px);
+   }
+ }
+ 
+ @media (min-width: 900px) {
+   .skills-container {
+     grid-template-columns: repeat(4, 160px);
+   }
+ }
+ 
+ .skills-container .box {
+   width: 100%;
+ }
+ 
+ .skills-container .box h2 {
+   display: block;
+   text-align: center;
+   color: #fff;
+ }
+ 
+ .skills-container .box .chart {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   font-size: 40px;
+   line-height: 160px;
+   height: 160px;
+   color: #fff;
+ }
+ 
+ .skills-container .box canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   width: 100%;
+ }
+ 
+   </style>
+</script>
+  <title>Sunil's Portfolio</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169007209-3');
+  </script>
+  <style>
+    .portfolio-wrap img{
+      height: 200px;
+    }
+  </style>
+
+
+
+  <!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
+
+    <div class="container">
+
+      <h1><a href="index.html">Sunil Kamkar</a></h1>
+      <h2 style="color:#fff">I'm <span class="typing" style="color: #afd0bf;"></span></h2>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header"> <span>Home</span></a></li>
+          <li><a href="#about"><span>About</span></a></li>
+          <li><a href="#education"> <span>Education</span></a></li>
+          <li><a href="#experience"> <span>Experience</span></a></li>
+<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
+          <li><a href="#portfolio"> <span>Projects</span></a></li>
+          <li><a href="#skills"> <span>Skills</span></a></li>
+          <li><a href="https://drive.google.com/file/d/1EovjvOycMTdEeNRASEN_EPOA3vigHgdV/view?usp=sharing" target="_blank"> <span>Resume</span></a></li>
+          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
+          <!-- <li><a href="#contacts"> <span>Contact</span></a></li> -->
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <div class="section-title" style="margin-top: 2rem;">
+        <h2>Contact</h2>
+      </div>
+    <div class="social-links">
+     
+        <a href="https://www.linkedin.com/in/sunil-kamkar/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/sunilks12" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="mailto:sunilkamkar97@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+        <a href="https://medium.com/@sunilkamkar97/stylized-speech-synthesis-3ba44d238922" target="_blank" class="medium"><i class="bx bxl-medium"></i></a>
+    
+    </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me1.jpg" class="img-fluid" alt="" height="30">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <p>Analytics and Data Science professional with a keen interest in machine learning and statistics. By comprehensive exposure
+            to the underlying concepts and applying them vividly to various projects, my love for these domains came into being.
+            I am a passionate individual who thrives to build and apply models to solve real-world industry problems. <br>
+            <br>
+            As a way to recharge and pursue my personal interests, I often take time off to engage in activities such as motorbike riding, hiking, kayaking, 
+            and swimming. I also engage in more structured physical activities, such as playing badminton, football and enjoy watching my favorite sports games. 
+            To stay informed about developments in my field, I also make it a point to read blogs on business and technology trends. 
+            
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 26 September 1997</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1 (737)-314-4917</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Austin, TX</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> sunilkamkar97@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-global-line" style="color: #ffbb2c;"></i>
+            <h3>Mathematics</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #5578ff;"></i>
+            <h3>Machine Learning</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-camera-3-line" style="color: #79eabf;"></i>
+            <h3>Deep Learning</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-english-input" style="color: #1c7d32;"></i>
+            <h3>Natural Language Processing</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
+            <h3>Data Engineering</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
+            <h3>Visualization</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
+            <h3>Statistics</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-image-line" style="color: #ffc107;"></i>
+            <h3>Analytics</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+  </section><!-- End About Section -->
+
+
+
+  <!-- ======= Education Section ======= -->
+  <section id="education" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up" style="display: flex;">
+
+
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: flex:1 ;">
+
+              <img src="assets/img/education/ut11.png" class="img-fluid" alt="">
+              <!-- <h4 style="text-align:left;"><a href="https://www.mccombs.utexas.edu/graduate/ms-programs/ms-business-analytics/" target="_blank" style="color:#AFD0BF">University of Texas at Austin</a><br> </h4> -->
+              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>MS in Business Analytics</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">July 2022 - May 2023</h5>
+              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
+              <ul style="text-align:left;color:#fff;">
+                <li>Advanced Optimisation</li>
+                <li>Advanced Machine Learning</li>
+                <li>Marketing Analytics</li>
+              </ul>
+            </div>
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: flex:1;">
+              <img src="assets/img/education/mu11.jpg" class="img-fluid" alt="">
+              <!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#AFD0BF">Ahmedabad University</a><br> </h4> -->
+              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>PG Diploma in Data Science</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">July 2018 - July 2019</h5>
+              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
+              <ul style="text-align:left;color:#fff;">
+                <!-- <li>Data Structures &amp; Algorithms</li> -->
+                <li>Advanced Big data</li>
+                <li>Data Visualization</li>
+                <li>Natural Language Processing</li>
+                <!-- <li>Computer Vision</li> -->
+              </ul>
+            </div>
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: flex:1;">
+              <img src="assets/img/education/cu11.jpg" class="img-fluid" alt="">
+              <!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#AFD0BF">Ahmedabad University</a><br> </h4>inline-block; -->
+              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>BS in Computer Science, Mathematics, Statistics</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">June 2015 - May 2018</h5>
+              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
+              <ul style="text-align:left;color:#fff;">
+                <!-- <li>Data Structures &amp; Algorithms</li> -->
+                <li>Applied Statistics</li>
+                <!-- <li>Operating Systems</li> -->
+                <li>Linear Algebra</li>
+                <li>Probability Distributions</li>
+                <!-- <li>Computer Vision</li> -->
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+<!--
+    <div class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Online Certification</h2>
+      </div>
+
+      <div class="row portfolio-container" style="position: relative; height: 437.75px;">
+
+         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Machine Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/2BTJ636Q2E93?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+           </div>
+          </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Algorithms-Design and Analysis</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/6THRQXYE9EHZ?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ucsd.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Algorithmic Toolbox</h4>
+              <div class="portfolio-links">
+                <a href="https://coursera.org/share/98bbfb990484fac370d5e5ed14334ea4" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 0px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Deep Learning with Tensorflow</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1FSwPt19EzY_tpvqkE6igtLf3gccKcssC/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 370px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Machine Learning with Python</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1gimySw_NPzCJ54dqZ2j2wYyz-JDOg-S0/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 740px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/dai.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Neural Networks and Deep Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/ELXZ6FE2BU7X?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  -->
+  </section>
+  <!-- End Education Section -->
+
+
+
+  <!-- Start Experience Section -->
+
+  <section id="experience" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Experience</h2>
+      </div>
+      <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="https://tmf.org/" style="color:#AFD0BF">TMF Health Quality Institute</a><br> </h4>
+               
+                <h5 style="text-align:left;">January 2023 - April 2023</h5>
+                <p style="text-align:left;color:#fff"><em>Data Science Intern </em></p>
+                <ul style="text-align:left;">
+                  <li>Identify the Medicare FFS Beneficiaries with Opioid Use Disorder and receiving Medication-Assisted Therapy (MAT).</li>
+                  <li>Implement statistical models and Geo-spatial analysis to identify areas where there is shortage of MAT providers.</li>
+                
+                </ul>
+              </div>
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="https://www.genpact.com/services/artificial-intelligence" style="color:#AFD0BF">Genpact</a><br> </h4>
+                <h5 style="text-align:left;">June 2021 - June 2022</h5>
+                <p style="text-align:left;color:#fff"><em>Data Scientist</em></p>
+                <ul style="text-align:left;">
+                  <li> Designed and devised R shiny dashboard; contains information on prevalence rate of diseases across multiple dimensions; used by RWE and Omnichannel analytics global pharma client team of 87 members.</li>
+                  <li> Created the cohort for NIS study protocol to evaluate the impact of concomitant SDB on the development of cardiovascular events to perform common statistical analysis, propensity score matching and survival analysis.</li>
+                  <li> Adopted linear regression technique to estimate prevalence rate of heart failure patients; implemented spline regression, improving accuracy of 8%. </li>
+                </ul>
+                <h5 style="text-align:left;"><strong>Tech:</strong> Python, R, R Shiny, SQL, Excel, Power BI</h5>
+               
+              </div>
+              
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="https://www.eversana.com/solutions/" style="color:#AFD0BF">Eversana</a><br> </h4>
+                <h5 style="text-align:left;">Feb 2021 - June 2021</h5>
+                <p style="text-align:left;color:#fff"><em>Associate Data Analyst</em></p>
+                <ul style="text-align:left;">
+                  <li>Developed Alteryx workflow for patient switch analysis</li>
+                  <li>Automated and optimised SQL codes for GPO inventory tracking</li>
+                  <li>Performed promotional analysis for product to evaluate market access, performance, and market share using python</li>
+                
+                </ul>
+                <h5 style="text-align:left;"><strong>Tech:</strong> Python, PostgreSQL, Alteryx, AWS</h5>
+              </div>
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;"><a href="https://www.iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning" target="_blank" style="color:#AFD0BF">Iqvia</a><br> </h4>
+                <h5 style="text-align:left;">April 2019 - Feb 2021</h5>
+                <p style="text-align:left;color:#fff"><em>Data Analyst</em></p>
+                <ul style="text-align:left;">
+                  <li>Devised analytical tool to perform engagement analysis to determine non-field campaign effectiveness and ROI,reduced inception-to-delivery delay from 2 weeks to 0.5 weeks. </li>
+                  <li>Conducted sales impact study to conclude effect of the Omni channel campaigns resulting in 10% incremental sales.</li>
+                  <li>Collaborated with team of consultants and researchers to determine key drivers in product adoption in treating neural disease deploying Random Forest, attained accuracy of 73%.</li>
+                </ul>
+                <h5 style="text-align:left;"><strong>Tech:</strong> Python, SQL, Tableau, Excel</h5>
+              </div>
+          
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- End Experience Section -->
+
+
+
+  <!-- Start Project Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="row" style="visibility: hidden;">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active all">All</li>
+            <li data-filter=".filter-app">Web-App</li>
+            <li data-filter=".filter-project">Project</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <center><h4>Stylized Speech Synthesis</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/NN1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>click here to know more</h4>
+              <div class="portfolio-links">
+                <a href="projects/twitteranalysis.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <center><h4>Cereal Recommender</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/rec.webp" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>click here to know more</h4>
+              <div class="portfolio-links">
+                <a href="projects/iras.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <center><h4>Fifa'22 Sentiment Analysis</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/image.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>click here to know more</h4>
+              <div class="portfolio-links">
+                <a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <center><h4>RFM segmentation and Recommender</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/RFM.webp" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>click here to know more</h4>
+              <div class="portfolio-links">
+                <a href="projects/recommender.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <center><h4>To-Do App</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/todo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <!-- <br> -->
+          <center><h4>ML Pipeline and Churn prediction</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/churn2.webp" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>click here to know more</h4>
+              <div class="portfolio-links">
+                <a href="projects/resume.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <center><h4>Cancer Tumor Keyword Identification </h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/siamese.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/vdg.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <br>
+          <center><h4>Tech Blog</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        
+
+      
+        
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <!-- <br> -->
+          <center><h4>WIP</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/gan.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- End Project Section -->
+
+
+
+  <!-- Start Skills Section -->
+
+  <section id="skills" class="services portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter=".filter-project" class="filter-active skills">Skills</li>
+            <li data-filter=".filter-app">Skills Evaluation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 portfolio-container" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box  portfolio-item filter-project" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
+            <h4 style="text-align:left;color:#001936FF">Languages and Databases</h4>
+                <p style="text-align:left;">
+                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone" height="50" width="150">
+                
+                  <img src="assets/img/r-project-ar21.svg" alt=vectorlogo.zone height="60" width="90">
+                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70" width="130">
+                  <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg" alt="vectorlogo.zone" height="50" width="190">
+                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="vectorlogo.zone" height="60" width="90">
+                
+                  
+
+                </p>
+            </div>
+            <div class="col-md-12 mt-4 mt-md-0 icon-box  portfolio-item filter-project" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
+              <h4 style="text-align:left;color:#001936FF">Frameworks</h4>
+                <p style="text-align:left;">
+                
+                  
+                  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" alt="vectorlogo.zone">
+                 
+                  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="upload.wikimedia.org" width="90" height="70">
+                  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg">
+                  <img src="assets/img/Shiny.png" width="120" height="70">
+                  <img src="assets/img/GurobiLogo_Black.svg" width="120" height="70">
+                  <img src="assets/img/plot_ly-ar21.svg" width="120" height="70">
+
+              </p>
+          </div>
+          <div class="col-md-12 mt-4 mt-md-0 icon-box  portfolio-item filter-project" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
+              <h4 style="text-align:left;color:#001936FF">Tools</h4>
+                <p style="text-align:left;">
+                  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="vectorlogo.zone">
+                  <img src="assets/img/SpaCy_logo.svg.png" alt="vectorlogo.zone" height="40">
+                
+                  <img src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg" alt="vectorlogo.zone">
+                  <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg"  alt="vectorlogo.zone">
+                  <img src="assets/img/tableau-software.svg" width="110" height="60">
+                  <img src="assets/img/icons8-microsoft-excel-48.png" width="100" height="60">
+              </p>
+          </div>
+          <div class=" portfolio-item filter-app" >
+            <div class="skills-container">
+              <div class="box">
+                <div class="chart" data-percent="85" >85%</div>
+                <h2>Python</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="81" >81%</div>
+                <h2>R</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="91" >91%</div>
+                <h2>SQL</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="62" >62%</div>
+                <h2>HTML</h2>
+              </div>
+              
+            </div>
+            <div class="skills-container mt-4">
+              <div class="box">
+                <div class="chart" data-percent="95" >95%</div>
+                <h2>Scikit-learn</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="72" >72%</div>
+                <h2>Tensorflow</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="55" >55%</div>
+                <h2>OpenCV</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="50" >50%</div>
+                <h2>Flask</h2>
+              </div>
+              
+            </div>
+            <div class="skills-container mt-4">
+              <div class="box">
+                <div class="chart" data-percent="80" >80%</div>
+                <h2>Tableau</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="83" >83%</div>
+                <h2>MS-Excel</h2>
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="87" >87%</div>
+                <h2>Alteryx</h2>
+    
+              </div>
+              <div class="box">
+                <div class="chart" data-percent="68" >68%</div>
+                <h2>Heroku</h2>
+    
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-----TRIAL CHECK-->
+
+
+
+
+  <!-- End Skills Section -->
+
+
+
+
+  <!-- Start Links section -->
+  <section id="links" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Resume & Links</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://drive.google.com/drive/u/0/folders/1q8uDXbR3IbPe_Os0NvolxoaQiCVm4G4L" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing" target="_blank">Resume</a></h4>
+          <p class="description" style="color:#fff;">The link contains downloadable resume</p>
+        </div>
+        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+          <a href="https://github.com/sunilks12/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
+          <h4 class="title"><a href="https://github.com/sunilks12/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
+          <p class="description" style="color:#fff;"> The github repository contains leetcode problems solution in python.</p>
+        </div>
+        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
+          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
+        </div> -->
+      </div>
+    </div>
+  </section> <!--End Links Section -->
+
+
+  <!-- Start Contact Section -->
+
+ 
+
+  <!-- End Contact Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Data Scientist", "Analytics Consultant", "Gamer","Data Analyst","Automobile Enthusiast"],
+      loop: true,
+      typeSpeed: 75,
+      backSpeed: 75
+    });
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
