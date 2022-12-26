@@ -135,9 +135,6 @@
     setTimeout(() => {
       document.querySelector('.filter-active.skills').click();
     }, 0)
-    setTimeout(() => {
-      document.querySelector('.filter-active.all').click();
-    }, 100)
 
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
